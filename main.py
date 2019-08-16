@@ -10,10 +10,10 @@ app.config['DEBUG'] = True
 app.static_folder = 'templates/static'
 
 #-------- DATA -----------#
-df = pd.read_csv('../datasets/product_info_clean.csv')
-content = pd.read_csv('../datasets/content_sim.csv')
-collab = pd.read_csv('../datasets/collaborative_sim.csv')
-repurchase = pd.read_csv('../datasets/repurchase.csv')
+df = pd.read_csv('datasets/product_info_clean.csv')
+content = pd.read_csv('datasets/content_sim.csv')
+collab = pd.read_csv('datasets/collaborative_sim.csv')
+repurchase = pd.read_csv('datasets/repurchase.csv')
 
 #drop Unnamed: 0 columns
 df.drop(columns = 'Unnamed: 0', axis = 1, inplace = True)
