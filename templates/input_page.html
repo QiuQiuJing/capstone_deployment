@@ -1,0 +1,469 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Skin123!</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+<!--Fonts-->
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+<!--owl-carousel css-->
+
+<link rel="stylesheet" href="static/css/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="static/css/owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="static/css/owl-carousel/owl.transitions.css">
+<!--        <link rel="stylesheet"  href="css/animations.css">-->
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/css/main.css">
+<link rel="stylesheet" href="static/css/color.css">
+
+<script src="static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="page-top" class="index">
+
+<!-- Preloader -->
+<div class="preloader"></div>
+
+<!--[if lt IE 8]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Header -->
+<header id="home">
+	<!-- Navigation -->
+	<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+				</button>
+				<a style="display: none" class="navbar-brand page-scroll" href="#page-top"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav text-center">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#stepone">Step 1</a></li>
+					<li><a href="#steptwo">Step 2</a></li>
+					
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<div class="layer1">
+		<div class="container">
+			<div id="main-banner" class="main-banner">
+				<div class="intro-text">
+                    <div class="intro-heading"><h1><span>Welcome to</span>SKIN 123<span>Find the best match for your skin</span></h1></div>
+					<a href="#stepone" class="page-scroll btn btn-primary">Start</a>
+				</div>
+			</div> 
+		</div>
+		<div class="banner-layer layer2"></div>
+		<div class="banner-layer layer3"></div>
+	</div> 
+
+</header>
+
+<form action="product" method="post">
+<!-- Step one Section -->
+<section id="stepone">
+	<div class="container animatedParent">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">What category of skincare product you are looking for?</h2>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4 animated bounceInLeft slower">
+				<div class="circle"><img src="static/images/cleanser.png" alt="face-wash-facial-cleanser" /></div>
+				<h4 class="service-heading" name="cat_in"><input type="radio" id = 'cat' name="cat_in" value="face-wash-facial-cleanser" >Facial Cleanser</h4>
+				<p class="text-muted">Clean skin is happy skin!</p>
+			</div>
+			<div class="col-md-4 animated bounceInDown slower">
+				<div class="circle"><img src="static/images/toner.png" alt="facial-toner-skin-toner" /></div>
+				<h4 class="service-heading"><input type="radio" id = 'cat' name="cat_in" value="facial-toner-skin-toner">Toner</h4>
+				<p class="text-muted">Extra cleansing and balancing</p>
+			</div>
+			<div class="col-md-4 animated bounceInRight slower">
+				<div class="circle"><img src="static/images/moisturizer.png" alt="moisturizer-skincare" /></div>
+				<h4 class="service-heading"><input type="radio" id = 'cat' name="cat_in" value="moisturizer-skincare">Moisturizer</h4>
+				<p class="text-muted">More hydration, less skin problem</p>
+			</div>
+		<a href="#steptwo" class="page-scroll btn btn-primary">Next</a>
+        </div>
+	</div>
+</section>
+ 
+
+
+<!-- Step Two Section -->
+<section id="steptwo" class="fun-facts bg-light-gray bg-light-gray-back">
+    <div class="container animatedParent">
+		<div class="row">
+			<div class="col-lg-12 text-center col-sm-12">
+				<h2 class="section-heading">What is the product name?</h2>
+                    <select class="form-control" name="product_name" style='margin-bottom: 80px; margin-top: 100px; height: 44px;'>
+                        <option></option>
+                        <option selected="selected" >--Select your product--</option>
+                        <option >ALGENIST GENIUS Sleeping Collagen</option>
+                        <option >ALGENIST GENIUS Ultimate Anti-Aging Cream</option>
+                        <option >ALGENIST Hydrating Essence Toner</option>
+                        <option >ALPHA-H Liquid Gold</option>
+                        <option >AMOREPACIFIC Treatment Cleansing Foam</option>
+                        <option >AMOREPACIFIC Treatment Toner</option>
+                        <option >ANTHONY Astringent Toner Pads</option>
+                        <option >BELIF Bergamot Herbal Extract Toner</option>
+                        <option >BELIF Peat Miracle Revital Cream</option>
+                        <option >BELIF Problem Solution Toner</option>
+                        <option >BELIF The True Cream Aqua Bomb</option>
+                        <option >BELIF The True Cream Moisturizing Bomb</option>
+                        <option >BELIF Witch Hazel Herbal Extract Toner v2</option>
+                        <option >BELIF Witch Hazel Herbal Extract Toner</option>
+                        <option >BIOSSANCE Squalane + Antioxidant Cleansing Oil</option>
+                        <option >BIOSSANCE Squalane + Probiotic Gel Moisturizer</option>
+                        <option >BIOSSANCE Squalane + Tea Tree Balancing Oil</option>
+                        <option >BIOSSANCE Squalane + Tea Tree Cleansing Gel</option>
+                        <option >BIOSSANCE Squalane + Tea Tree Detox Mask</option>
+                        <option >BIOSSANCE Squalane + Vitamin C Rose Oil</option>
+                        <option >BLITHE Vital Treatment Essence for Hydrating</option>
+                        <option >BOBBI BROWN Hydrating Face Tonic Toner</option>
+                        <option >BOBBI BROWN Vitamin Enriched Face Base Priming Moisturizer</option>
+                        <option >BOSCIA Detoxifying Black Charcoal Cleanser</option>
+                        <option >BOSCIA MakeUp-BreakUp Cool Cleansing Oil</option>
+                        <option >CAUDALIE Beauty Elixir</option>
+                        <option >CAUDALIE Instant Foaming Cleanser</option>
+                        <option >CAUDALIE Make-Up Removing Cleansing Oil</option>
+                        <option >CAUDALIE Micellar Cleansing Water</option>
+                        <option >CAUDALIE Moisturizing Toner</option>
+                        <option >CAUDALIE Vinoperfect Brightening Glycolic Overnight Cream</option>
+                        <option >CAUDALIE Vinopure Natural Salicylic Acid Pore Minimizing Toner</option>
+                        <option >CAUDALIE Vinosource Moisturizing Sorbet</option>
+                        <option >CHARLOTTE TILBURY Magic Cream Moisturizer</option>
+                        <option >CLARINS Extra-Comfort Toning Lotion</option>
+                        <option >CLARINS Gentle Foaming Cleanser with Cottonseed</option>
+                        <option >CLARINS One-Step Gentle Exfoliating Cleanser with Orange Extract</option>
+                        <option >CLARINS Toning Lotion with Camomile</option>
+                        <option >CLINIQUE Acne Solutions Clarifying Lotion</option>
+                        <option >CLINIQUE Acne Solutions Cleansing Foam</option>
+                        <option >CLINIQUE Blackhead Solutions 7 Day Deep Pore Cleanse & Scrub</option>
+                        <option >CLINIQUE Blackhead Solutions Self-heating Blackhead Extractor</option>
+                        <option >CLINIQUE Clarifying Lotion 1</option>
+                        <option >CLINIQUE Clarifying Lotion 2 v2</option>
+                        <option >CLINIQUE Clarifying Lotion 2</option>
+                        <option >CLINIQUE Clarifying Lotion 3 v2</option>
+                        <option >CLINIQUE Clarifying Lotion 3</option>
+                        <option >CLINIQUE Clarifying Lotion 4</option>
+                        <option >CLINIQUE Clinique iD™ Custom-Blend Hydrator Collection</option>
+                        <option >CLINIQUE Dramatically Different Moisturizing Gel</option>
+                        <option >CLINIQUE Dramatically Different Moisturizing Lotion+</option>
+                        <option >CLINIQUE Liquid Facial Soap</option>
+                        <option >CLINIQUE Moisture Surge 72-Hour Auto-Replenishing Hydrator</option>
+                        <option >CLINIQUE Moisture Surge Intense Skin Fortifying Hydrator</option>
+                        <option >CLINIQUE Pep-Start 2-in-1 Exfoliating Cleanser</option>
+                        <option >CLINIQUE Rinse-Off Foaming Cleanser</option>
+                        <option >CLINIQUE Take The Day Off Cleansing Balm</option>
+                        <option >CLINIQUE Take The Day Off Cleansing Oil</option>
+                        <option >CLINIQUE Turnaround Revitalizing Lotion</option>
+                        <option >DERMADOCTOR Ain’t Misbehavin’® Healthy Toner with Glycolic & Lactic Acid</option>
+                        <option >DERMALOGICA Active Moist Moisturizer</option>
+                        <option >DERMALOGICA Breakout Clearing All Over Toner</option>
+                        <option >DERMALOGICA Dynamic Skin Recovery SPF50 Moisturizer</option>
+                        <option >DERMALOGICA Multi-Active Toner</option>
+                        <option >DERMALOGICA Precleanse Cleansing Oil</option>
+                        <option >DERMALOGICA Special Cleansing Gel</option>
+                        <option >DIOR Capture Totale Dreamskin Advanced</option>
+                        <option >DR ROEBUCK'S Lifesaver Skin Brightening Toner</option>
+                        <option >DR. DENNIS GROSS SKINCARE Alpha Beta® Pore Perfecting Cleansing Gel</option>
+                        <option >DR. DENNIS GROSS SKINCARE Ferulic + Retinol Anti-Aging Moisturizer</option>
+                        <option >DR. JART+ Ceramidin™ Cream</option>
+                        <option >DR. JART+ Ceramidin™ Liquid</option>
+                        <option >DR. JART+ Cicapair ™ Tiger Grass Color Correcting Treatment SPF 30</option>
+                        <option >DR. JART+ Cicapair™ Tiger Grass Cream</option>
+                        <option >DRUNK ELEPHANT Baby Bar Travel Duo with Case</option>
+                        <option >DRUNK ELEPHANT Baby Pekee Bar™ + Juju Bar Travel Duo</option>
+                        <option >DRUNK ELEPHANT Beste™ No. 9 Jelly Cleanser</option>
+                        <option >DRUNK ELEPHANT JuJu Exfoliating Bar</option>
+                        <option >DRUNK ELEPHANT Lala Retro™ Whipped Moisturizer</option>
+                        <option >DRUNK ELEPHANT Pekee™ Cleansing Bar</option>
+                        <option >DRUNK ELEPHANT Protini™ Polypeptide Moisturizer</option>
+                        <option >DRUNK ELEPHANT Slaai™ Makeup-Melting Butter Cleanser</option>
+                        <option >DRUNK ELEPHANT Virgin Marula Antioxidant Face Oil</option>
+                        <option >EDIBLE BEAUTY No. 2 Citrus Rhapsody Toner Mist</option>
+                        <option >ERBORIAN Eau Ginseng</option>
+                        <option >ERNO LASZLO Hydraphel Skin Supplement Lotion</option>
+                        <option >ERNO LASZLO Light Controlling Lotion</option>
+                        <option >ESTÉE LAUDER Micro Essence Skin Activating Treatment Lotion</option>
+                        <option >ESTÉE LAUDER Nutritious Super-Pomegranate Radiant Energy 2-in-1 Cleansing Foam</option>
+                        <option >ESTÉE LAUDER Nutritious Super-Pomegranate Radiant Energy Lotion</option>
+                        <option >ESTÉE LAUDER Perfectly Clean Multi-Action Toning Lotion/Refiner</option>
+                        <option >ESTÉE LAUDER Revitalizing Supreme Global Anti-Aging Crème</option>
+                        <option >EVE LOM Cleanser</option>
+                        <option >FARMACY Clean Bee Ultra Gentle Facial Cleanser</option>
+                        <option >FARMACY Green Clean Makeup Removing Cleansing Balm</option>
+                        <option >FARMACY Honey Drop Lightweight Moisturizer</option>
+                        <option >FARSÁLI Rose Gold Elixir – 24k Gold Infused Beauty Oil</option>
+                        <option >FARSÁLI Unicorn Essence Antioxidant Primer Serum</option>
+                        <option >FIRST AID BEAUTY Hello FAB Coconut Skin Smoothie Priming Moisturizer</option>
+                        <option >FIRST AID BEAUTY Pure Skin Face Cleanser</option>
+                        <option >FIRST AID BEAUTY Ultra Repair Face Moisturizer</option>
+                        <option >FIRST AID BEAUTY Ultra Repair® Cream Intense Hydration</option>
+                        <option >FRESH Crème Ancienne® Infusion Toner</option>
+                        <option >FRESH Lotus Youth Preserve Dream Night Cream</option>
+                        <option >FRESH Lotus Youth Preserve Moisturizer</option>
+                        <option >FRESH Rose Deep Hydration Facial Toner</option>
+                        <option >FRESH Rose Deep Hydration Moisturizer</option>
+                        <option >FRESH Rose Floral Toner Mini</option>
+                        <option >FRESH Rose Floral Toner</option>
+                        <option >FRESH Seaberry Skin Nutrition Cleansing Oil</option>
+                        <option >FRESH Soy Face Cleanser Limited Edition</option>
+                        <option >FRESH Soy Face Cleanser</option>
+                        <option >FRESH Sugar Strawberry Exfoliating Face Wash</option>
+                        <option >FRESH Umbrian Clay Purifying Facial Toner</option>
+                        <option >GLAMGLOW GLOWSTARTER™ Mega Illuminating Moisturizer</option>
+                        <option >GLAMGLOW SUPERCLEANSE™ Clearing Cream-to-Foam Cleanser</option>
+                        <option >GLAMGLOW SUPERTONER ™ Exfoliating Acid Solution Toner</option>
+                        <option >GLOW RECIPE Blueberry Bounce Gentle Cleanser</option>
+                        <option >GLOW RECIPE Watermelon Pink Juice Oil-Free Moisturizer</option>
+                        <option >HERBIVORE Bamboo Charcoal Detoxifying Soap Bar</option>
+                        <option >HERBIVORE Emerald Hemp Seed Deep Moisture Glow Oil</option>
+                        <option >HERBIVORE Jasmine Green Tea Balancing Toner</option>
+                        <option >HERBIVORE Lapis Balancing Facial Oil</option>
+                        <option >HERBIVORE Pink Cloud Rosewater Moisture Crème</option>
+                        <option >HERBIVORE Rose Hibiscus Coconut Water Hydrating Face Mist</option>
+                        <option >ILIA Cucumber Water Stick</option>
+                        <option >INDIE LEE Brightening Cleanser</option>
+                        <option >INDIE LEE CoQ-10 Toner</option>
+                        <option >IT COSMETICS Bye Bye Makeup Cleansing Balm</option>
+                        <option >IT COSMETICS Bye Bye Redness Neutralizing Color-Correcting Cream</option>
+                        <option >IT COSMETICS CC+ Cream Oil-Free Matte with SPF 40</option>
+                        <option >IT COSMETICS Confidence in a Cleanser</option>
+                        <option >IT COSMETICS Confidence in a Cream Hydrating Moisturizer</option>
+                        <option >IT COSMETICS Secret Sauce Anti-Aging Moisturizer</option>
+                        <option >JACK BLACK Deep Dive™ Glycolic Facial Cleanser</option>
+                        <option >JACK BLACK Double-Duty Face Moisturizer Broad Spectrum SPF 20</option>
+                        <option >JACK BLACK Pure Clean Daily Facial Cleanser</option>
+                        <option >JOSIE MARAN 100 percent Pure Argan Oil</option>
+                        <option >JOSIE MARAN Argan Cleansing Oil</option>
+                        <option >JOSIE MARAN Argan Daily Moisturizer SPF 47</option>
+                        <option >JOSIE MARAN Whipped Argan Oil Face Butter</option>
+                        <option >KATE SOMERVILLE EradiKate® Daily Cleanser Acne Treatment</option>
+                        <option >KATE SOMERVILLE ExfoliKate® Cleanser Daily Foaming Wash</option>
+                        <option >KIEHL'S SINCE 1851 Blue Astringent Herbal Lotion</option>
+                        <option >KIEHL'S SINCE 1851 Calendula Deep Clean Foaming Face Wash</option>
+                        <option >KIEHL'S SINCE 1851 Calendula Herbal Extract Alcohol Free Toner</option>
+                        <option >KIEHL'S SINCE 1851 Calendula Serum-Infused Water Cream</option>
+                        <option >KIEHL'S SINCE 1851 Cucumber Herbal Alcohol-Free Toner</option>
+                        <option >KIEHL'S SINCE 1851 Rare Earth Deep Pore Daily Cleanser</option>
+                        <option >KIEHL'S SINCE 1851 Rare Earth Pore Refining Tonic</option>
+                        <option >KIEHL'S SINCE 1851 Ultra Facial Cleanser</option>
+                        <option >KIEHL'S SINCE 1851 Ultra Facial Cream</option>
+                        <option >KIEHL'S SINCE 1851 Ultra Facial Oil-Free Gel-Cream</option>
+                        <option >KIEHL'S SINCE 1851 Ultra Facial Oil-Free Toner</option>
+                        <option >KIEHL'S SINCE 1851 Ultra Facial Toner</option>
+                        <option >KOPARI Coconut Rose Toner</option>
+                        <option >KORRES Greek Yoghurt Foaming Cream Cleanser Mini</option>
+                        <option >KORRES Greek Yoghurt Foaming Cream Cleanser</option>
+                        <option >KORRES Pomegranate Tonic Lotion</option>
+                        <option >KORRES Wild Rose Foaming Cream Cleanser</option>
+                        <option >LA MER Crème de la Mer Mini</option>
+                        <option >LA MER Crème de la Mer</option>
+                        <option >LA MER Limited Edition Blue Heart Crème de la Mer</option>
+                        <option >LA MER The Cleansing Foam Mini</option>
+                        <option >LA MER The Cleansing Foam</option>
+                        <option >LA MER The Cleansing Gel</option>
+                        <option >LA MER The Cleansing Micellar Water</option>
+                        <option >LA MER The Moisturizing Cool Gel Cream</option>
+                        <option >LA MER The Moisturizing Soft Cream</option>
+                        <option >LA MER The Tonic</option>
+                        <option >LANCÔME Tonique Confort Re-Hydrating Comforting Toner with Acacia Honey</option>
+                        <option >LANCÔME Tonique Douceur Softening Hydrating Toner with Rose Water</option>
+                        <option >LANCÔME Tonique Radiance Clarifying Refining Toner</option>
+                        <option >LANCÔME UV Expert Aquagel Defense Primer & Moisturizer SPF 50</option>
+                        <option >LANEIGE Essential Power Skin Toner for Combination to Oily Skin</option>
+                        <option >LANEIGE Essential Power Skin Toner for Normal to Dry Skin</option>
+                        <option >LANEIGE Fresh Calming Toner</option>
+                        <option >LANEIGE Water Bank Moisture Cream</option>
+                        <option >MARC JACOBS BEAUTY Youthquake Hydra-full Retexturizing Gel Crème Moisturizer</option>
+                        <option >MARIO BADESCU Buffering Lotion</option>
+                        <option >MARIO BADESCU Cucumber Cleansing Lotion</option>
+                        <option >MARIO BADESCU Drying Lotion</option>
+                        <option >MARIO BADESCU Glycolic Acid Toner</option>
+                        <option >MARIO BADESCU Special Cucumber Lotion</option>
+                        <option >MARIO BADESCU Witch Hazel & Rosewater Toner</option>
+                        <option >MILK MAKEUP Cooling Water</option>
+                        <option >MILK MAKEUP Matcha Toner</option>
+                        <option >MURAD AHA/BHA Exfoliating Cleanser</option>
+                        <option >MURAD Clarifying Cleanser</option>
+                        <option >MURAD Clarifying Toner</option>
+                        <option >MURAD Essential-C Cleanser</option>
+                        <option >MURAD Essential-C Toner</option>
+                        <option >MURAD Hydrating Toner</option>
+                        <option >MURAD Hydro-Dynamic® Quenching Essence</option>
+                        <option >MURAD Time Release Acne Cleanser</option>
+                        <option >NEOGEN DERMALOGY Green Tea Real Fresh Foam Cleanser</option>
+                        <option >OLEHENRIKSEN Balancing Force™ Oil Control Toner</option>
+                        <option >OLEHENRIKSEN Counter Balance™ Oil Control Hydrator</option>
+                        <option >OLEHENRIKSEN Find Your Balance™ Oil Control Cleanser</option>
+                        <option >OLEHENRIKSEN Glow2OH™ Dark Spot Toner</option>
+                        <option >OLEHENRIKSEN Goodnight Glow Retin-ALT Sleeping Crème</option>
+                        <option >OLEHENRIKSEN Sheer Transformation® Perfecting Moisturizer</option>
+                        <option >OLEHENRIKSEN The Clean Truth™ Foaming Cleanser</option>
+                        <option >OLEHENRIKSEN Truth™ On the Glow Cleansing Cloths</option>
+                        <option >OMOROVICZA Queen of Hungary Mist</option>
+                        <option >OMOROVICZA Rejuvenating Night Cream</option>
+                        <option >ORIGINS A Perfect World™ Age-Defense Treatment Lotion with White Tea</option>
+                        <option >ORIGINS Checks and Balances™ Frothy Face Wash</option>
+                        <option >ORIGINS Dr. Andrew Weil For Origins™ Mega-Bright SPF 30 Skin Tone Correcting Oil-Free Moisturizer</option>
+                        <option >ORIGINS Dr. Andrew Weil For Origins™ Mega-Mushroom Relief & Resilience Soothing Treatment Lotion</option>
+                        <option >ORIGINS GinZing™ Energy-Boosting Gel Moisturizer</option>
+                        <option >ORIGINS GinZing™ Refreshing Scrub Cleanser</option>
+                        <option >ORIGINS GinZing™ SPF 40 Energy-Boosting Tinted Moisturizer</option>
+                        <option >ORIGINS Original Skin™ Matte Moisturizer with Willowherb</option>
+                        <option >ORIGINS United State™ Balancing Tonic</option>
+                        <option >ORIGINS Zero Oil™ Deep Pore Cleanser</option>
+                        <option >ORIGINS Zero Oil™ Pore Purifying Toner</option>
+                        <option >PERRICONE MD No:Rinse Intensive Pore Minimizing Toner</option>
+                        <option >PERRICONE MD PRE:EMPT SERIES™ Exfoliating Pore Refiner</option>
+                        <option >PETER THOMAS ROTH 3% Glycolic Solutions Cleanser</option>
+                        <option >PETER THOMAS ROTH 8% Glycolic Solutions Toner</option>
+                        <option >PETER THOMAS ROTH Anti-Aging Cleansing Gel</option>
+                        <option >PETER THOMAS ROTH Un-Wrinkle Turbo™ Line Smoothing Toning Lotion</option>
+                        <option >PETER THOMAS ROTH Water Drench Hyaluronic Cloud Cream</option>
+                        <option >PHILOSOPHY Purity Made Simple Cleanser</option>
+                        <option >PHILOSOPHY Purity Made Simple One-Step Facial Cleansing Cloths</option>
+                        <option >PHILOSOPHY Renewed Hope in A Jar Facial Moisturizer</option>
+                        <option >PHILOSOPHY The Microdelivery Exfoliating Facial Wash</option>
+                        <option >PROACTIV Revitalizing Toner</option>
+                        <option >REN CLEAN SKINCARE Evercalm™ Gentle Cleansing Milk</option>
+                        <option >REN CLEAN SKINCARE Ready Steady Glow Daily AHA Tonic</option>
+                        <option >SEPHORA COLLECTION Clean Skin Gel - Cleanse + Tone</option>
+                        <option >SEPHORA COLLECTION Nourishing Moisturizer - Hydrate & Repair</option>
+                        <option >SHISEIDO Benefiance Extra Creamy Cleansing Foam</option>
+                        <option >SHISEIDO Benefiance WrinkleResist24 Balancing Softener Enriched</option>
+                        <option >SHISEIDO Benefiance WrinkleResist24 Day Cream Broad Spectrum SPF 18</option>
+                        <option >SHISEIDO Benefiance WrinkleResist24 Night Cream</option>
+                        <option >SHISEIDO Bio-Performance Advanced Super Revitalizing Cream</option>
+                        <option >SHISEIDO Clarifying Cleansing Foam</option>
+                        <option >SHISEIDO Eudermine Revitalizing Essence</option>
+                        <option >SHISEIDO WASO: Clear Mega-Hydrating Moisturizer</option>
+                        <option >SHISEIDO White Lucent Brightening Cleansing Foam</option>
+                        <option >SHISEIDO White Lucent Luminizing Infuser</option>
+                        <option >SK-II Cellumination Mask-In Lotion</option>
+                        <option >SK-II Facial Treatment Cleanser</option>
+                        <option >SK-II Facial Treatment Clear Lotion Toner</option>
+                        <option >SK-II Facial Treatment Essence</option>
+                        <option >SK-II R.N.A. POWER Face Cream</option>
+                        <option >SKINFIX Barrier+ Foaming Oil Cleanser</option>
+                        <option >SON & PARK Beauty Water</option>
+                        <option >SUNDAY RILEY C.E.O Vitamin C Rich Hydration Cream</option>
+                        <option >SUNDAY RILEY Ceramic Slip Cleanser</option>
+                        <option >SUNDAY RILEY Juno Antioxidant + Superfood Face Oil</option>
+                        <option >SUNDAY RILEY Luna Retinol Sleeping Night Oil</option>
+                        <option >SUNDAY RILEY Martian Mattifying Melting Water-Gel Toner</option>
+                        <option >SUNDAY RILEY Tidal Brightening Enzyme Water Cream</option>
+                        <option >SUPERGOOP! Everyday Sunscreen Broad Spectrum SPF 50</option>
+                        <option >SUPERGOOP! Superscreen Daily Moisturizer Broad Spectrum SPF 40 PA+++</option>
+                        <option >TARTE Deep Dive Cleansing Gel Rainforest of the Sea™</option>
+                        <option >TARTE Drink of H2O Hydrating Boost Moisturizer Rainforest of the Sea™</option>
+                        <option >TARTE Knockout Tingling Treatment</option>
+                        <option >TATA HARPER Clarifying Blemish & Oil Control Cleanser</option>
+                        <option >TATA HARPER Purifying Pore Detox Cleanser</option>
+                        <option >TATA HARPER Regenerating Exfoliating Cleanser</option>
+                        <option >TATCHA Pure One Step Camellia Oil Cleanser</option>
+                        <option >TATCHA The Deep Cleanse Exfoliating Cleanser</option>
+                        <option >TATCHA The Dewy Skin Cream</option>
+                        <option >TATCHA The Essence Plumping Skin Softener</option>
+                        <option >TATCHA The Indigo Cream Soothing Skin Protectant</option>
+                        <option >TATCHA The Silk Cream</option>
+                        <option >TATCHA The Water Cream</option>
+                        <option >THE INKEY LIST Glycolic Acid Toner</option>
+                        <option >THE ORDINARY Glycolic Acid 7% Toning Solution</option>
+                        <option >THE ORDINARY Hyaluronic Acid 2% + B5</option>
+                        <option >THE ORDINARY Natural Moisturizing Factors + HA</option>
+                        <option >THE ORDINARY Squalane Cleanser</option>
+                        <option >THE ORDINARY Vitamin C Suspension 23% + HA Spheres 2%</option>
+                        <option >YOUTH TO THE PEOPLE Adaptogen Deep Moisture Cream with Ashwagandha + Reishi</option>
+                        <option >YOUTH TO THE PEOPLE Limited Edition Pride Superfood Antioxidant Cleanser</option>
+                        <option >YOUTH TO THE PEOPLE Superfood Antioxidant Cleanser</option>
+                        <option >YOUTH TO THE PEOPLE Superfood Hyaluronic Acid Moisturizer</option>
+
+                        
+                        
+                    </select>  
+                    
+                    <button class="page-scroll btn btn-primary" type="submit" value='submit'>let's go!
+                </button>  
+            </div>
+        </div>
+    </div>
+</section>    
+<form/>  
+
+
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">
+				<span class="copyright"> <em>General Assembly Data Science Immersive Capstone Project 2019
+<a target="_blank" href="http://sc.chinaz.com/moban/"></a></em></span>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<!-- jQuery -->
+<script src="static/js/vendor/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="static/js/vendor/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="static/js/vendor/jquery.easing.min.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="static/js/vendor/jqBootstrapValidation.js"></script>
+<script src="static/js/vendor/contact_me.js"></script>
+<script src="static/js/vendor/owl.carousel.min.js"></script>
+<script src="static/js/vendor/prettify.js"></script>
+<script src="static/js/vendor/css3-animate-it.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="static/js/vendor/agency.min.js"></script>
+<script src="static/js/vendor/jquery.mixitup.js"></script>
+<script src="static/js/vendor/wow.min.js"></script>
+<!---<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/vendor/gmaps.js"></script>--->
+
+<script src="static/js/main.js"></script>
+<script src="static/js/script.js"></script>
+<!---<script type="text/javascript">
+	//++++++++++++++++++++++++++++++++
+	//   Map Code
+	//++++++++++++++++++++++++++++++++
+	var map = new GMaps({
+		div: '#map',
+		lat: -12.043333,
+		lng: -77.028333
+	});
+</script>--->
+
+</body>
+</html>
