@@ -19,7 +19,7 @@ matplotlib==3.0.3
 
 notebook==5.7.8
 
-numpy==1.16.2
+numpy==1.22.0
 
 
 regex==2019.6.8
